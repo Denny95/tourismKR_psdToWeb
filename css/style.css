@@ -1,0 +1,630 @@
+@charset "UTF-8";
+/*hello*/
+.main-wrapper {
+  background: #eaeaea;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 900px;
+  overflow: hidden;
+  z-index: -2; }
+
+@media screen and (max-width: 996) {
+  .header, .content, .footer {
+    margin: 20px 0 0 0; } }
+@media screen and (max-width: 320px) {
+  .carousel {
+    width: 100%;
+    height: 100%; }
+
+  .carousel .item {
+    width: 100%;
+    height: 400px;
+    overflow: auto; }
+
+  .carousel .item img {
+    margin: 0 auto;
+    /* Align slide image horizontally center */ } }
+/*
+================================================================================
+|                                     HEADER                                   |
+================================================================================
+*/
+/*hello*/
+.main-wrapper {
+  background: #eaeaea;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 900px;
+  overflow: hidden;
+  z-index: -2; }
+
+@media screen and (max-width: 996) {
+  .header, .content, .footer {
+    margin: 20px 0 0 0; } }
+@media screen and (max-width: 320px) {
+  .carousel {
+    width: 100%;
+    height: 100%; }
+
+  .carousel .item {
+    width: 100%;
+    height: 400px;
+    overflow: auto; }
+
+  .carousel .item img {
+    margin: 0 auto;
+    /* Align slide image horizontally center */ } }
+.header {
+  position: relative;
+  background-size: cover;
+  margin: 0 0 0 0; }
+  .header .headerMenu {
+    background: #511c44 no-repeat;
+    position: relative; }
+  .header nav {
+    position: relative;
+    display: table;
+    margin: 0 auto;
+    z-index: 10;
+    min-height: auto;
+    white-space: nowrap; }
+    .header nav ul {
+      position: relative;
+      text-align: center;
+      display: block;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: auto;
+      list-style: none;
+      background: none;
+      /*╤Н╤В╨░ ╤Б╤В╤А╨╛╤З╨║╨░ ╤А╨╡╨░╨╗╨╕╨╖╤Г╨╡╤В ╨╝╨╡╤Е╨░╨╜╨╕╨╖╨╝ ╨▓╤Л╨┐╨░╨┤╨╡╨╜╨╕╤П*/ }
+      .header nav ul li {
+        position: relative;
+        display: inline-block;
+        width: auto;
+        height: auto;
+        vertical-align: top;
+        text-align: left; }
+        .header nav ul li a {
+          display: block;
+          padding: 19px 18px 0 15px;
+          font-size: 18px;
+          font-family: "Roboto Condensed", sans-serif;
+          color: #ffffef;
+          line-height: 1.3em;
+          text-decoration: none;
+          font-weight: bold;
+          text-transform: uppercase;
+          height: 70px;
+          box-sizing: border-box; }
+        .header nav ul li ul {
+          position: absolute;
+          top: 50px;
+          left: 0px;
+          margin-bottom: 22px;
+          display: none;
+          background: #612352;
+          white-space: nowrap; }
+          .header nav ul li ul li {
+            display: block;
+            width: auto; }
+            .header nav ul li ul li a {
+              display: block;
+              text-transform: none;
+              height: auto;
+              padding: 7px 15px;
+              width: 100%;
+              box-sizing: border-box; }
+            .header nav ul li ul li a:hover {
+              background: #612352;
+              color: #6572BC; }
+      .header nav ul li > a:hover, .header nav ul li:hover > a {
+        background: #612352;
+        color: white; }
+      .header nav ul li:hover ul {
+        display: block; }
+    .header nav > ul {
+      text-align: justify;
+      font-size: 1px;
+      line-height: 1px; }
+    .header nav > ul::after {
+      display: inline-block;
+      width: 100%;
+      height: 0px;
+      content: " "; }
+
+@media screen and (max-width: 320px) {
+  .header {
+    margin-bottom: 50px; }
+    .header nav {
+      width: 100%;
+      text-align: center; }
+      .header nav ul {
+        text-align: center; }
+        .header nav ul li {
+          display: block;
+          text-align: center; }
+          .header nav ul li ul {
+            z-index: 99; }
+            .header nav ul li ul li {
+              display: block;
+              width: auto; }
+              .header nav ul li ul li a:hover {
+                background: #612352;
+                color: #6572BC; }
+        .header nav ul li > a:hover, .header nav ul li:hover > a {
+          z-index: 120;
+          background: #612352;
+          color: white; }
+        .header nav ul li:hover ul {
+          /*╤Н╤В╨░ ╤Б╤В╤А╨╛╤З╨║╨░ ╤А╨╡╨░╨╗╨╕╨╖╤Г╨╡╤В ╨╝╨╡╤Е╨░╨╜╨╕╨╖╨╝ ╨▓╤Л╨┐╨░╨┤╨╡╨╜╨╕╤П*/
+          display: block; }
+    .header .bs-example {
+      max-height: 100px; } }
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .header {
+    margin-bottom: 50px; }
+    .header nav {
+      width: 100%;
+      text-align: center; }
+      .header nav ul {
+        text-align: center; }
+        .header nav ul li {
+          display: block;
+          text-align: center; }
+          .header nav ul li ul {
+            z-index: 99; }
+            .header nav ul li ul li {
+              display: block;
+              width: auto; }
+              .header nav ul li ul li a:hover {
+                background: #612352;
+                color: #6572BC; }
+        .header nav ul li > a:hover, .header nav ul li:hover > a {
+          z-index: 120;
+          background: #612352;
+          color: white; }
+        .header nav ul li:hover ul {
+          /*╤Н╤В╨░ ╤Б╤В╤А╨╛╤З╨║╨░ ╤А╨╡╨░╨╗╨╕╨╖╤Г╨╡╤В ╨╝╨╡╤Е╨░╨╜╨╕╨╖╨╝ ╨▓╤Л╨┐╨░╨┤╨╡╨╜╨╕╤П*/
+          display: block; }
+    .header .bs-example {
+      max-height: 100px; }
+
+  .header .bs-example {
+    max-height: 200px; } }
+@media screen and (min-width: 600px) and (max-width: 806px) {
+  .header {
+    margin-bottom: 50px; }
+    .header nav {
+      white-space: normal; }
+      .header nav ul li ul {
+        z-index: 99; }
+      .header nav ul li:hover ul {
+        /*╤Н╤В╨░ ╤Б╤В╤А╨╛╤З╨║╨░ ╤А╨╡╨░╨╗╨╕╨╖╤Г╨╡╤В ╨╝╨╡╤Е╨░╨╜╨╕╨╖╨╝ ╨▓╤Л╨┐╨░╨┤╨╡╨╜╨╕╤П*/ }
+      .header nav > ul {
+        text-align: center; }
+    .header .bs-example {
+      max-height: 300px; } }
+@media screen and (min-width: 807px) and (max-width: 991px) {
+  .header {
+    margin-bottom: 50px; }
+    .header nav {
+      white-space: normal; }
+      .header nav ul li ul {
+        z-index: 99; }
+      .header nav ul li:hover ul {
+        /*╤Н╤В╨░ ╤Б╤В╤А╨╛╤З╨║╨░ ╤А╨╡╨░╨╗╨╕╨╖╤Г╨╡╤В ╨╝╨╡╤Е╨░╨╜╨╕╨╖╨╝ ╨▓╤Л╨┐╨░╨┤╨╡╨╜╨╕╤П*/ }
+      .header nav > ul {
+        text-align: center; }
+    .header .bs-example {
+      max-height: 300px; } }
+@media screen and (min-width: 992px) and (max-width: 1060px) {
+  .header {
+    margin-bottom: 50px; }
+    .header nav {
+      white-space: normal; }
+      .header nav ul li ul {
+        z-index: 99; }
+      .header nav ul li:hover ul {
+        /*╤Н╤В╨░ ╤Б╤В╤А╨╛╤З╨║╨░ ╤А╨╡╨░╨╗╨╕╨╖╤Г╨╡╤В ╨╝╨╡╤Е╨░╨╜╨╕╨╖╨╝ ╨▓╤Л╨┐╨░╨┤╨╡╨╜╨╕╤П*/ }
+      .header nav > ul {
+        text-align: center; }
+    .header .bs-example {
+      max-height: 300px; } }
+/*hello*/
+.main-wrapper {
+  background: #eaeaea;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 900px;
+  overflow: hidden;
+  z-index: -2; }
+
+@media screen and (max-width: 996) {
+  .header, .content, .footer {
+    margin: 20px 0 0 0; } }
+@media screen and (max-width: 320px) {
+  .carousel {
+    width: 100%;
+    height: 100%; }
+
+  .carousel .item {
+    width: 100%;
+    height: 400px;
+    overflow: auto; }
+
+  .carousel .item img {
+    margin: 0 auto;
+    /* Align slide image horizontally center */ } }
+.carousel {
+  width: 100%;
+  height: 100%; }
+
+.carousel .item {
+  width: 100%;
+  overflow: auto; }
+
+.carousel .item img {
+  margin: 0 auto;
+  /* Align slide image horizontally center */ }
+
+.carousel .item img:hover {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+  /* IE 6-9 */
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
+
+.carousel .item img {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none;
+  /* IE 6-9 */
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
+
+/*hello*/
+.main-wrapper {
+  background: #eaeaea;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 900px;
+  overflow: hidden;
+  z-index: -2; }
+
+@media screen and (max-width: 996) {
+  .header, .content, .footer {
+    margin: 20px 0 0 0; } }
+@media screen and (max-width: 320px) {
+  .carousel {
+    width: 100%;
+    height: 100%; }
+
+  .carousel .item {
+    width: 100%;
+    height: 400px;
+    overflow: auto; }
+
+  .carousel .item img {
+    margin: 0 auto;
+    /* Align slide image horizontally center */ } }
+.content {
+  position: relative;
+  margin-top: 50px; }
+  .content .tours, .content .tourGuides {
+    margin: 50px 200px 0 200px; }
+  .content .tours {
+    margin-top: 0; }
+    .content .tours .tourItem {
+      position: relative;
+      height: 330px;
+      margin-bottom: 50px; }
+      .content .tours .tourItem img {
+        width: 100%;
+        vertical-align: bottom; }
+      .content .tours .tourItem img {
+        -webkit-filter: none;
+        -moz-filter: none;
+        -ms-filter: none;
+        -o-filter: none;
+        filter: none;
+        filter: none;
+        /* IE 6-9 */
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        -o-transition: all 1s;
+        transition: all 1s; }
+      .content .tours .tourItem img:hover {
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%);
+        filter: grayscale(100%);
+        filter: gray;
+        /* IE 6-9 */
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        -o-transition: all 1s;
+        transition: all 1s; }
+      .content .tours .tourItem .tourItemText {
+        border: 1px solid white;
+        padding: 0 15px 0 15px;
+        background: white; }
+        .content .tours .tourItem .tourItemText h1 {
+          font: bold 18px "Roboto Condensed", sans-serif;
+          text-transform: uppercase; }
+        .content .tours .tourItem .tourItemText p {
+          font: 18px "Roboto Condensed", sans-serif; }
+      .content .tours .tourItem h1 {
+        margin-top: 16px; }
+    .content .tours .moreToursButt {
+      text-align: center;
+      margin-bottom: 50px; }
+      .content .tours .moreToursButt button {
+        background: #71175b;
+        width: 160px;
+        height: 45px;
+        font: 18px "Roboto Condensed", sans-serif;
+        color: white;
+        text-transform: uppercase;
+        border: none; }
+  .content .map {
+    display: block;
+    height: auto;
+    display: table;
+    margin: 0 auto; }
+    .content .map img {
+      width: 100%;
+      height: 100%; }
+  .content .tourGuides {
+    position: relative;
+    display: block;
+    margin-bottom: 50px; }
+    .content .tourGuides .tourGuideItem {
+      text-align: center; }
+      .content .tourGuides .tourGuideItem .tourGuideItemPhoto img {
+        vertical-align: bottom;
+        width: 100%;
+        border-radius: 1000px; }
+      .content .tourGuides .tourGuideItem .tourGuideItemText p {
+        display: block;
+        height: 40px; }
+      .content .tourGuides .tourGuideItem h1 {
+        font: bold 18px "Roboto Condensed", sans-serif;
+        text-transform: uppercase; }
+      .content .tourGuides .tourGuideItem p {
+        font: 18px "Roboto Condensed", sans-serif; }
+      .content .tourGuides .tourGuideItem p {
+        font-weight: bold;
+        font-style: italic; }
+
+@media screen and (max-width: 320px) {
+  .content .tours, .content .tourGuides {
+    margin-left: 20%;
+    margin-right: 20%; }
+  .content .tourGuides {
+    position: relative;
+    display: block;
+    margin-bottom: 50px; }
+    .content .tourGuides .tourGuideItem {
+      text-align: center; }
+      .content .tourGuides .tourGuideItem .tourGuideItemPhoto {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        max-height: 180px;
+        max-width: 180px; }
+        .content .tourGuides .tourGuideItem .tourGuideItemPhoto img {
+          text-align: center;
+          vertical-align: bottom;
+          max-height: 100%;
+          max-width: 100%;
+          border-radius: 1000px;
+          margin-bottom: 70px; } }
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .content .tours, .content .tourGuides {
+    margin-left: 20%;
+    margin-right: 20%; }
+  .content .tourGuides {
+    position: relative;
+    display: block;
+    margin-bottom: 50px; }
+    .content .tourGuides .tourGuideItem {
+      text-align: center; }
+      .content .tourGuides .tourGuideItem .tourGuideItemPhoto {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        max-height: 180px;
+        max-width: 180px; }
+        .content .tourGuides .tourGuideItem .tourGuideItemPhoto img {
+          text-align: center;
+          vertical-align: bottom;
+          max-height: 100%;
+          max-width: 100%;
+          border-radius: 1000px;
+          margin-bottom: 70px; } }
+@media screen and (min-width: 601px) and (max-width: 806px) {
+  .content .tours, .content .tourGuides {
+    margin-left: 20%;
+    margin-right: 20%; }
+  .content .tourGuides {
+    position: relative;
+    display: block;
+    margin-bottom: 50px; }
+    .content .tourGuides .tourGuideItem {
+      text-align: center; }
+      .content .tourGuides .tourGuideItem .tourGuideItemPhoto {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        max-height: 180px;
+        max-width: 180px; }
+        .content .tourGuides .tourGuideItem .tourGuideItemPhoto img {
+          text-align: center;
+          vertical-align: bottom;
+          max-height: 100%;
+          max-width: 100%;
+          border-radius: 1000px;
+          margin-bottom: 70px; } }
+@media screen and (min-width: 807px) and (max-width: 991px) {
+  .content .tours, .content .tourGuides {
+    margin-left: 20%;
+    margin-right: 20%; }
+  .content .tourGuides {
+    position: relative;
+    display: block;
+    margin-bottom: 50px; }
+    .content .tourGuides .tourGuideItem {
+      text-align: center; }
+      .content .tourGuides .tourGuideItem .tourGuideItemPhoto {
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        max-height: 180px;
+        max-width: 180px; }
+        .content .tourGuides .tourGuideItem .tourGuideItemPhoto img {
+          text-align: center;
+          vertical-align: bottom;
+          max-height: 100%;
+          max-width: 100%;
+          border-radius: 1000px;
+          margin-bottom: 70px; } }
+/*hello*/
+.main-wrapper {
+  background: #eaeaea;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 900px;
+  overflow: hidden;
+  z-index: -2; }
+
+@media screen and (max-width: 996) {
+  .header, .content, .footer {
+    margin: 20px 0 0 0; } }
+@media screen and (max-width: 320px) {
+  .carousel {
+    width: 100%;
+    height: 100%; }
+
+  .carousel .item {
+    width: 100%;
+    height: 400px;
+    overflow: auto; }
+
+  .carousel .item img {
+    margin: 0 auto;
+    /* Align slide image horizontally center */ } }
+.footer {
+  position: relative;
+  margin: 0 0 0 0;
+  text-align: center; }
+  .footer .footerMenuBG {
+    background: #612352; }
+    .footer .footerMenuBG .footerMenu {
+      position: relative;
+      white-space: nowrap;
+      margin: 0 200px 0 200px; }
+      .footer .footerMenuBG .footerMenu .footerMenuItem {
+        position: relative;
+        display: inline-block;
+        text-align: left;
+        margin: 35px 10% 35px 0; }
+        .footer .footerMenuBG .footerMenu .footerMenuItem a {
+          margin-bottom: 18px;
+          display: block;
+          text-decoration: underline;
+          font: 18px "Roboto Condensed", sans-serif;
+          color: white; }
+  .footer .footerAutorsBG {
+    background: #511c44;
+    border: 1px solid #511c44; }
+    .footer .footerAutorsBG .autors p {
+      display: block;
+      margin: 20px 0 20px 0;
+      font: 18px "Roboto Condensed", sans-serif;
+      color: white; }
+
+@media screen and (max-width: 320px) {
+  .footer .footerMenuBG .footerMenu {
+    display: block;
+    white-space: normal;
+    margin: 0 auto;
+    width: 100%; }
+    .footer .footerMenuBG .footerMenu .footerMenuItem {
+      display: inline-block;
+      text-align: left;
+      margin: 15px 10% 15px 10%; }
+      .footer .footerMenuBG .footerMenu .footerMenuItem a {
+        margin-bottom: 18px;
+        display: block;
+        text-decoration: underline;
+        font: 18px "Roboto Condensed", sans-serif;
+        color: white; } }
+@media screen and (max-width: 600px) {
+  .footer .footerMenuBG .footerMenu {
+    display: block;
+    white-space: normal;
+    margin: 0 auto;
+    width: 100%; }
+    .footer .footerMenuBG .footerMenu .footerMenuItem {
+      display: inline-block;
+      text-align: left;
+      margin: 15px 10% 15px 10%; }
+      .footer .footerMenuBG .footerMenu .footerMenuItem a {
+        margin-bottom: 18px;
+        display: block;
+        text-decoration: underline;
+        font: 18px "Roboto Condensed", sans-serif;
+        color: white; } }
+@media screen and (min-width: 601px) and (max-width: 806px) {
+  .footer .footerMenuBG .footerMenu {
+    display: block;
+    white-space: normal;
+    margin: 0 auto;
+    width: 100%; }
+    .footer .footerMenuBG .footerMenu .footerMenuItem {
+      display: inline-block;
+      text-align: left;
+      margin: 15px 10% 15px 10%; }
+      .footer .footerMenuBG .footerMenu .footerMenuItem a {
+        margin-bottom: 18px;
+        display: block;
+        text-decoration: underline;
+        font: 18px "Roboto Condensed", sans-serif;
+        color: white; } }
+@media screen and (min-width: 807px) and (max-width: 1100px) {
+  .footer .footerMenuBG .footerMenu {
+    display: block;
+    white-space: normal;
+    margin: 0 auto;
+    width: 100%; }
+    .footer .footerMenuBG .footerMenu .footerMenuItem {
+      display: inline-block;
+      text-align: left;
+      margin: 15px 10% 15px 10%; }
+      .footer .footerMenuBG .footerMenu .footerMenuItem a {
+        margin-bottom: 18px;
+        display: block;
+        text-decoration: underline;
+        font: 18px "Roboto Condensed", sans-serif;
+        color: white; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<title>Главная</title>
+	<!--Подключение моего css -->
+	<link href = "css/style.css" type = "text/css" rel = "stylesheet">
+
+	<!--Подключение анимаций -->
+	<link href = "css/animate.min.css" type = "text/css" rel = "stylesheet">	
+
+	<!--Подключение шрифтов гугл -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"> 
+
+	<!-- Ссылки BOOTSTRAP -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- END BOOTSTRAP LINK -->
+
+	<!--jQuery-->
+	<!-- <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script> -->
+	<!-- <script type="text/javascript" src="js/wow.min.js"></script> -->
+	
+	<!-- <script type="text/javascript" src="js/animatedHover.js"></script> -->
+
+<!-- 	<script type="text/javascript">
+		new WOW().init();
+	</script> -->
+
+	<script type="text/javascript">
+		function videoFone(){
+			var video = document.getElementById("video_bg");
+			var videoBtn = document.getElementById("videoBtn");
+			if(video.style.display == 'block') {
+				video.style.display = 'none';
+				// toggler.innerHTML = 'Открыть';
+				videoBtn.value = "Воспроизвести видео";
+			}
+			else{
+				video.style.display = 'block';
+				videoBtn.value = "Прекратить видео";
+			}
+		}
+	</script>
+
+</head>
+
+<body class="loaded">
+
+
+<!-- BEGIN BODY -->
+<div class="main-wrapper">
+	
+<!-- BEGIN HEADER -->
+	<header class="header">	
+		<div class="headerMenu">
+			<nav id="menu1">
+				<ul>
+					<li><a href="#m1">Екскурсоводи</a>
+						<ul>
+							<li><a href="#">Джек Николсон</a></li>
+							<li><a href="#">Аль Пачино</a></li>
+							<li><a href="#">Иван Сусанин</a></li>
+						</ul>
+					</li>
+					<li><a href="#m2">Маршрути</a></li>
+					<li><a href="#m4">Туристична мапа</a>
+						<ul>
+							<li><a href="#">Пам'ятки</a></li>
+							<li><a href="#">Де зупинитися</a></li>
+							<li><a href="#">Де поїсти</a></li>
+							<li><a href="#">Події в місти</a></li>
+						</ul>
+					</li>
+					<li><a href="#m5">Тур. агенції</a></li>
+					<li><a href="#m4">Сувеніри</a></li>
+					<li><a href="#m4">Правова база</a></li>
+					<li><a href="#m4">Опитування</a></li>
+				</ul>
+			</nav><!--menu1-->
+		</div>
+
+		<div class="bs-example">
+			<div id="myCarousel" class="carousel slide" data-interval="4000" data-ride="carousel">
+				<!-- Carousel indicators -->
+<!-- 				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol> -->   
+				<!-- Wrapper for carousel items -->
+				<div class="carousel-inner">
+					<div class="active item">
+						<img src="img/slider_1.png" alt="">
+						<div class="carousel-caption">
+
+							<!-- <p class="mySign">"Денис Кригер"</p> -->
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/slider_2.png" alt="">
+						<div class="carousel-caption">
+							<!-- <h3>Second slide label</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/slider_3.png" alt="">
+						<div class="carousel-caption">
+							<!-- <h3>Third slide label</h3>
+							<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
+						</div>
+					</div>
+				</div>
+				<!-- Carousel controls -->
+			<!-- 	<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="carousel-control right" href="#myCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a> -->
+			</div>
+		</div>
+	</header>
+
+<!-- BEGIN CONTENT -->
+	
+	<main class="content">		
+		<div class="container-fluid tours">
+
+			<div class="row">
+				<div class="col-lg-3 col-md-4 col-sm-6 tourItem">
+					<img src="img/tour_1.png" alt="">
+					<div class="tourItemText">
+						<h1>Екскурсія по криворізьких степах</h1>
+						<p>Живописна пішохідна екскурсія
+						длиною по селищах кемерійців</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 tourItem">
+					<img src="img/tour_2.png" alt="">
+					<div class="tourItemText">
+						<h1>Екскурсія по криворізьких степах</h1>
+						<p>Живописна пішохідна екскурсія
+						длиною по селищах кемерійців</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 tourItem">
+					<img src="img/tour_3.png" alt="">
+					<div class="tourItemText">
+						<h1>Екскурсія по криворізьких степах</h1>
+						<p>Живописна пішохідна екскурсія
+						длиною по селищах кемерійців</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 tourItem">
+					<img src="img/tour_4.png" alt="">
+					<div class="tourItemText">
+						<h1>Екскурсія по криворізьких степах</h1>
+						<p>Живописна пішохідна екскурсія
+						длиною по селищах кемерійців</p>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 tourItem">
+					<img src="img/tour_1.png" alt="">
+					<div class="tourItemText">
+						<h1>Екскурсія по криворізьких степах</h1>
+						<p>Живописна пішохідна екскурсія
+						длиною по селищах кемерійців</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 tourItem">
+					<img src="img/tour_2.png" alt="">
+					<div class="tourItemText">
+						<h1>Екскурсія по криворізьких степах</h1>
+						<p>Живописна пішохідна екскурсія
+						длиною по селищах кемерійців</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 tourItem">
+					<img src="img/tour_3.png" alt="">
+					<div class="tourItemText">
+						<h1>Екскурсія по криворізьких степах</h1>
+						<p>Живописна пішохідна екскурсія
+						длиною по селищах кемерійців</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 tourItem">
+					<img src="img/tour_4.png" alt="">
+					<div class="tourItemText">
+						<h1>Екскурсія по криворізьких степах</h1>
+						<p>Живописна пішохідна екскурсія
+						длиною по селищах кемерійців</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-12 col-sm-12 moreToursButt">
+					<button type="button">ще  екскурсії</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="map">
+			<img src="img/map.png" alt="">
+		</div>
+
+		<div class="fluid-container tourGuides">
+			<div class="row">
+				<div class="col-md-2 col-sm-6 tourGuideItem">
+					<div class="tourGuideItemPhoto"><img src="img/tourGuid_1.png" alt=""></div>
+					<div class="tourGuideItemText">
+						<p>Джек Николсон</p>
+						<p>экскунсовод</p>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-6 tourGuideItem">
+					<div class="tourGuideItemPhoto"><img src="img/tourGuid_2.png" alt=""></div>
+					<div class="tourGuideItemText">
+						<p>Аль Пачино</p>
+						<p>экскунсовод</p>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-6 tourGuideItem">
+					<div class="tourGuideItemPhoto"><img src="img/tourGuid_3.png" alt=""></div>
+					<div class="tourGuideItemText">
+						<p>Иван Сусанин</p>
+						<p>экскунсовод</p>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-6 tourGuideItem">
+					<div class="tourGuideItemPhoto"><img src="img/tourGuid_1.png" alt=""></div>
+					<div class="tourGuideItemText">
+						<p>Джек Николсон</p>
+						<p>экскунсовод</p>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-6 tourGuideItem">
+					<div class="tourGuideItemPhoto"><img src="img/tourGuid_2.png" alt=""></div>
+					<div class="tourGuideItemText">
+						<p>Аль Пачино</p>
+						<p>экскунсовод</p>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-6 tourGuideItem">
+					<div class="tourGuideItemPhoto"><img src="img/tourGuid_3.png" alt=""></div>
+					<div class="tourGuideItemText">
+						<p>Иван Сусанин</p>
+						<p>экскунсовод</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>	
+
+<!-- CONTENT EOF   -->
+		
+
+	<!-- BEGIN FOOTER -->	
+	
+	<footer class = "footer">
+		<div class="footerMenuBG">
+			<div class="footerMenu">
+				<div class="footerMenuItem">
+					<a href="#">О проекте</a>
+					<a href="">Услуги экскурсоводов</a>
+					<a href="">Контакты</a>
+				</div>
+				<div class="footerMenuItem">
+					<a href="#">О проекте</a>
+					<a href="#">Услуги экскурсоводов</a>
+					<a href="#">Контакты</a>
+				</div>
+				<div class="footerMenuItem">
+					<a href="#">О проекте</a>
+					<a href="#">Услуги экскурсоводов</a>
+					<a href="#">Контакты</a>
+				</div>
+				<div class="footerMenuItem">
+					<a href="#">О проекте</a>
+					<a href="#">Услуги экскурсоводов</a>
+					<a href="#">Контакты</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="footerAutorsBG">
+			<div class="autors">
+				<p>© 2017, виконком Криворізької міської ради</p>
+			</div>
+		</div>
+	
+	</footer>
+	
+<!-- FOOTER EOF   -->
+
+</div>
+
+
+
+<!-- <div class="icon-load"></div>		 -->
+
+<!-- BODY EOF   -->
+	
+<!-- 	<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>		
+	<script type="text/javascript" src="js/jquery-migrate-1.4.1.min.js" ></script>
+	
+	<script type="text/javascript" src="js/components/jquery.fancybox.js" ></script>
+	<script type="text/javascript" src="js/components/jquery.formstyler.js" ></script>
+	<script type="text/javascript" src="js/components/slick.js" ></script>
+	<script type="text/javascript" src="js/components/jquery.mCustomScrollbar.js" ></script>
+	
+	<script type="text/javascript" src="js/custom.js" ></script> -->
+
+</body>
+</html>
